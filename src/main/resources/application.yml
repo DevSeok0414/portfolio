@@ -1,0 +1,12 @@
+server:
+  port: 8180
+  servlet:
+    encoding:
+      charset: utf-8
+      enabled: true
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
